@@ -12,16 +12,16 @@ Demo online:
 [here](https://webgaragecar.herokuapp.com/) [HomePage]
 
 
-## 1. What do you need to know?
+## 1. What are the benefits when you go to a garage car?
 
-This repository is the sample. For saving time, you can fork it and develop your repository independently.
+Have a service likes: repair, update and custom your car, etc ..
 
-## 2. About the structure
+## 2. Some review
 
-- Folder Code: contain whole codes, include FE - BE - Database, ...
+- Location of garage car
 
-- Folder Diagram: hold your .png files, those are diagrams that you need to submit quickly.
+- Car model picture
 
-- Folder Report: summary stuffs in a pdf file when you have done all things.
+- Suggest best sales vale
 
-- Folder References: contains all materials for weekly homework and final report.
+- Has take care customer-service
