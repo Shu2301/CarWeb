@@ -9,7 +9,7 @@ Tech stacks:
 
 Demo online: 
 
-[here](https://shu2301.github.io/Garage-Car/)[HomePage]
+[HomePage](https://shu2301.github.io/Garage-Car/)
 
 
 ## 1. What are the benefits when you go to a garage car?
