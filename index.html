@@ -1,87 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="index.css"/>
-    <link rel="stylesheet" href="./font/themify-icons.css"/>
-    <link rel="icon" href="./img/Car/logo.png" type="image/x-icon">    
-    <title>Shu</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Garage</title>
+    <link rel="icon" href="./assets/image/main/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css" />
   </head>
   <body>
-    <div class="main" id="main">
-      <div class="header" id="header">
-        <!-- Begin nav -->
-        <ul class="item" id="nav">
-          <li><a href="">HOME</a></li>  
-          <li><a href="">NEWS</a></li>
-          <li><a href="">CONTACT</a></li>   
-          <li><a href="">FAQ</a></li>
+    <!-- Begin: Main -->
+    <div id="main">
+      <!-- 1.Begin: Header -->
+      <div id="header">
+        <!-- Begin: nav -->
+        <ul id="nav">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#team">NEWS</a></li>
+          <li><a href="#tour">MODELS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
           <li>
-            <a href="">
+            <a href="#">
               CARS
               <i class="nav-arrow-down ti-angle-down"></i>
             </a>
-              <ul class="subnav">
-                <li><a href="">Porsche</a></li>
-                <li><a href="">Bugatti</a></li>
-                <li><a href="">Ferrari</a></li>
-                <li><a href="">Bentley</a></li>
+            <ul class="subnav">
+              <li><a href="#">Porsche</a></li>
+              <li><a href="#">Bugatti</a></li>
+              <li><a href="#">Ferrari</a></li>
+              <li><a href="#">Bentley</a></li>
             </ul>
           </li>
         </ul>
-        <!-- End nav -->
-        
-        <!-- Begin search -->
+        <!-- End: nav -->
+
+        <!-- Begin: search button -->
         <div class="search-btn">
           <i class="search-icon ti-search"></i>
         </div>
-        <!-- End seach -->
 
+        <div id="mobile-menu" class="mobile-menu-btn">
+          <i class="menu-icon ti-menu"></i>
+        </div>
+        <!-- End: search button -->
       </div>
+      <!-- End: Header -->
+
+      <!-- 2.Begin: Slider  -->
       <div id="slider">
         <div class="text-content">
           <h2 class="text-heading">GARAGE</h2>
-          <div class="text-description delay-02">WELCOME TO YOUR CAR WORLD</div>
+          <div class="text-decription">WELCOME TO YOUR CAR WORLD</div>
         </div>
       </div>
-      <div id="content">
+      <!-- End: Slider -->
 
-        <!-- Quickview section -->
-        <div class="content-section">
-          <h2 class="section-heading">QUICKVIEW</h2>
+      <!-- 3.Begin: Content -->
+      <div id="content">
+        <!-- About Section -->
+        <div id="team" class="content-section">
+          <h2 class="section-heading">NEW CARS</h2>
           <p class="section-sub-heading">Car is the best favorite</p>
           <p class="about-text">
-            The love of a car fanatic never seems to stop at new models with enchanting beauty or stylish car packages. That's where the Supercar Capsule Garage comes in. Designed by Italian design, architecture and consulting firm ASZarchitetti Group, the Supercar Capsule is a custom-built garage and showcase, built specifically for rolling artwork your highest rating. Want a soundproof area with a giant window next to your living room? They can do that. What about a two-tier, container-style setup that sits next to your pool? They can do that too. Each Supercar Capsule is a private showroom as luxurious as the cars you intend to display inside, and the sky is the limit when it comes to what is possible.
+            The love of a car fanatic never seems to stop at new models with enchanting 
+            beauty or stylish car packages. That's where the Supercar Capsule Garage comes 
+            in. Designed by Italian design, architecture and consulting firm ASZarchitetti 
+            Group, the Supercar Capsule is a custom-built garage and showcase, built specifically 
+            for rolling artwork your highest rating. Want a soundproof area with a giant window next 
+            to your living room? They can do that. What about a two-tier, container-style setup that 
+            sits next to your pool? They can do that too. Each Supercar Capsule is a private showroom 
+            as luxurious as the cars you intend to display inside, and the sky is the limit when it 
+            comes to what is possible.
           </p>
-          <div class="row car-list">
-            <div class="col col-fo  ur text-center">
-              <p class="car-name">Porsche</p>
-              <img src="./img/Car/3.jpg" alt="Car" class="car-img">
+          <div class="row car-list" >
+            <div class="car-item col col-four s-col-full mt-32 s-col-full text-center" >
+              <p class="car-name">Porsche </p>
+              <img src="./assets/image/car/3.JPG" alt="Moment" class="car-img" />
             </div>
-            <div class="col col-four text-center">
-              <p class="car-name">Bugatti</p>
-              <img src="./img/Car/4.jpg" alt="Car" class="car-img">
+            <div class="car-item col col-four s-col-full mt-32 s-col-full text-center" >
+              <p class="car-name">Bugatti </p>
+              <img src="./assets/image/car/4.JPG" alt="Moment" class="car-img" />
             </div>
-            <div class="col col-four text-center">
-              <p class="car-name">Ferrari</p>
-              <img src="./img/Car/5.jpg" alt="Car" class="car-img">
+            <div class="car-item col col-four s-col-full mt-32 s-col-full text-center" >
+              <p class="car-name">Ferrari </p>
+              <img src="./assets/image/car/5.JPG" alt="Moment" class="car-img" />
             </div>
-            <div class="col col-four text-center">
+            <div class="car-item col col-four s-col-full mt-32 s-col-full text-center" >
               <p class="car-name">Bentley</p>
-              <img src="./img/Car/6.jpg" alt="Car" class="car-img">
+              <img src="./assets/image/car/6.JPG" alt="Moment" class="car-img" />
             </div>
-            <div class="clear"></div>
           </div>
         </div>
 
-        <!-- News section -->
-        <div class="news-section">
+        <!-- Tour Section -->
+        <div id="tour" class="tour-section">
           <div class="content-section">
-            <h2 class="section-heading">BEST - SALER</h2>
-            <p class="section-sub-heading text-white">Car is the best favorite</p>
-            <p class="about-text">
+            <h2 class="section-heading text-white">MODELS</h2>
+            <p class="section-sub-heading text-white">
+              Car is the best favorite
             </p>
-            
             <!-- Sell -->
             <ul class="sell-list">
               <li>Porsche 911 GT3 RS<span class="best-sell">Best-sell</span></li>
@@ -89,146 +108,297 @@
               <li>Ferrari 296 GT3 <span class="best-sell">Best-sell</span></li>
               <li>Bentlley GT3 Pikes <span class="sold-out">Sold-out</span></li>
             </ul>
-
-            <!-- Buy1 -->
-            <div class="row buy-list1">
-              <div class="col col-four">
-                <img src="./img/Item/1.jpg" alt="" class="buy-img">
-                <div class="buy-body">
-                  <h3 class="buy-heading">Porsche 918 Spyder</h3>
-                  <p class="buy-cost">$2,100,000</p>
-                  <p class="buy-desc">ENGINE</p>
-                  <p class="buy-desc">WATTAGE</p>
-                  <p class="buy-desc">SPEED</p>
-                  <a href="#" class="buy-btn1">Favorite</a>
-                  <a href="#" class="buy-btn2">Buy</a>
+            <!-- Places -->
+            <div class="row car-list">
+              <div class="col col-four s-col-full mt-16">
+                <img src="./assets/image/items/1.jpg" alt="HaGiang" class="car-img"/>
+                <div class="car-body">
+                  <h3 class="car-heading">Porsche</h3>
+                  <p class="car-time">$2,100,000</p>
+                  <p class="car-desc">ENGINE</p>
+                  <p class="car-desc">WATTAGE</p>
+                  <p class="car-desc">SPEED</p>
+                  <button class="btn s-full-width buy-car1"> Favorite </button>
+                  <button class="btn s-full-width js-buy-car"> Buy Car </button>
                 </div>
               </div>
-            </div>
-            <div class="row buy-list1">
-              <div class="col col-four">
-                <img src="./img/Item/2.jpg" alt="" class="buy-img">
-                <div class="buy-body">
-                  <h3 class="buy-heading">Bugatti</h3>
-                  <p class="buy-cost">20.000$</p>
-                  <p class="buy-desc">ENGINE</p>
-                  <p class="buy-desc">WATTAGE</p>
-                  <p class="buy-desc">SPEED</p>
-                  <a href="#" class="buy-btn1">Favorite</a>
-                  <a href="#" class="buy-btn2">Buy</a>
+              <div class="col col-four s-col-full mt-16">
+                <img src="./assets/image/items/2.jpg" alt="HaGiang" class="car-img"/>
+                <div class="car-body">
+                  <h3 class="car-heading">Bugatti</h3>
+                  <p class="car-time">$2,100,000</p>
+                  <p class="car-desc">ENGINE</p>
+                  <p class="car-desc">WATTAGE</p>
+                  <p class="car-desc">SPEED</p>
+                  <button class="btn s-full-width buy-car1"> Favorite </button>
+                  <button class="btn s-full-width js-buy-car"> Buy Car </button>
                 </div>
               </div>
-            </div>
-            <div class="row buy-list1">
-              <div class="col col-four">
-                <img src="./img/Item/3.jpg" alt="" class="buy-img">
-                <div class="buy-body">
-                  <h3 class="buy-heading">Ferrari</h3>
-                  <p class="buy-cost">30.000$</p>
-                  <p class="buy-desc">ENGINE</p>
-                  <p class="buy-desc">WATTAGE</p>
-                  <p class="buy-desc">SPEED</p>
-                  <a href="#" class="buy-btn1">Favorite</a>
-                  <a href="#" class="buy-btn2">Buy</a>
+              <div class="col col-four s-col-full mt-16">
+                <img src="./assets/image/items/3.jpg" alt="HaGiang" class="car-img"/>
+                <div class="car-body">
+                  <h3 class="car-heading">Ferrari</h3>
+                  <p class="car-time">$2,100,000</p>
+                  <p class="car-desc">ENGINE</p>
+                  <p class="car-desc">WATTAGE</p>
+                  <p class="car-desc">SPEED</p>
+                  <button class="btn s-full-width buy-car1"> Favorite </button>
+                  <button class="btn s-full-width js-buy-car"> Buy Car </button>
                 </div>
               </div>
-            </div>
-            <div class="row buy-list1">
-              <div class="col col-four">
-                <img src="./img/Item/4.jpg" alt="" class="buy-img">
-                <div class="buy-body">
-                  <h3 class="buy-heading">Bentley</h3>
-                  <p class="buy-cost">40.000$</p>
-                  <p class="buy-desc">ENGINE</p>
-                  <p class="buy-desc">WATTAGE</p>
-                  <p class="buy-desc">SPEED</p>
-                  <a href="#" class="buy-btn1">Favorite</a>
-                  <a href="#" class="buy-btn2">Buy</a>
+              <div class="col col-four s-col-full mt-16">
+                <img src="./assets/image/items/4.jpg" alt="HaGiang" class="car-img"/>
+                <div class="car-body">
+                  <h3 class="car-heading">Bentley</h3>
+                  <p class="car-time">$2,100,000</p>
+                  <p class="car-desc">ENGINE</p>
+                  <p class="car-desc">WATTAGE</p>
+                  <p class="car-desc">SPEED</p>
+                  <button class="btn s-full-width buy-car1"> Favorite </button>
+                  <button class="btn s-full-width js-buy-car"> Buy Car </button>
                 </div>
               </div>
-              <div class="clear"></div>
-            </div>
-
-            <!-- Buy2 -->
-            <div class="row buy-list2">
-              <div class="col col-four">
-                <img src="./img/Item/5.jpg" alt="" class="buy-img">
-                <div class="buy-body">
-                  <h3 class="buy-heading">Porsche</h3>
-                  <p class="buy-cost">10.000$</p>
-                  <p class="buy-desc">ENGINE</p>
-                  <p class="buy-desc">WATTAGE</p>
-                  <p class="buy-desc">SPEED</p>
-                  <a href="#" class="buy-btn1">Favorite</a>
-                  <a href="#" class="buy-btn2">Buy</a>
+              <div class="col col-four s-col-full mt-16">
+                <img src="./assets/image/items/5.jpg" alt="HaGiang" class="car-img"/>
+                <div class="car-body">
+                  <h3 class="car-heading">Porsche</h3>
+                  <p class="car-time">$2,100,000</p>
+                  <p class="car-desc">ENGINE</p>
+                  <p class="car-desc">WATTAGE</p>
+                  <p class="car-desc">SPEED</p>
+                  <button class="btn s-full-width js-buy-car1"> Favorite </button>
+                  <button class="btn s-full-width js-buy-car"> Buy Car </button>
                 </div>
               </div>
-            </div>
-            <div class="row buy-list2">
-              <div class="col col-four">
-                <img src="./img/Item/2.jpg" alt="" class="buy-img">
-                <div class="buy-body">
-                  <h3 class="buy-heading">Bugatti</h3>
-                  <p class="buy-cost">20.000$</p>
-                  <p class="buy-desc">ENGINE</p>
-                  <p class="buy-desc">WATTAGE</p>
-                  <p class="buy-desc">SPEED</p>
-                  <a href="#" class="buy-btn1">Favorite</a>
-                  <a href="#" class="buy-btn2">Buy</a>
+              <div class="col col-four s-col-full mt-16">
+                <img src="./assets/image/items/2.jpg" alt="HaGiang" class="car-img"/>
+                <div class="car-body">
+                  <h3 class="car-heading">Bugatti</h3>
+                  <p class="car-time">$2,100,000</p>
+                  <p class="car-desc">ENGINE</p>
+                  <p class="car-desc">WATTAGE</p>
+                  <p class="car-desc">SPEED</p>
+                  <button class="btn s-full-width buy-car1"> Favorite </button>
+                  <button class="btn s-full-width js-buy-car"> Buy Car </button>
                 </div>
               </div>
-            </div>
-            <div class="row buy-list2">
-              <div class="col col-four">
-                <img src="./img/Item/7.jpg" alt="" class="buy-img">
-                <div class="buy-body">
-                  <h3 class="buy-heading">Ferrari</h3>
-                  <p class="buy-cost">30.000$</p>
-                  <p class="buy-desc">ENGINE</p>
-                  <p class="buy-desc">WATTAGE</p>
-                  <p class="buy-desc">SPEED</p>
-                  <a href="#" class="buy-btn1">Favorite</a>
-                  <a href="#" class="buy-btn2">Buy</a>
+              <div class="col col-four s-col-full mt-16">
+                <img src="./assets/image/items/7.jpg" alt="HaGiang" class="car-img"/>
+                <div class="car-body">
+                  <h3 class="car-heading">Ferrari</h3>
+                  <p class="car-time">$2,100,000</p>
+                  <p class="car-desc">ENGINE</p>
+                  <p class="car-desc">WATTAGE</p>
+                  <p class="car-desc">SPEED</p>
+                  <button class="btn s-full-width buy-car1"> Favorite </button>
+                  <button class="btn s-full-width js-buy-car"> Buy Car </button>
                 </div>
               </div>
-            </div>
-            <div class="row buy-list2">
-              <div class="col col-four">
-                <img src="./img/Item/8.jpg" alt="" class="buy-img">
-                <div class="buy-body">
-                  <h3 class="buy-heading">Bentley</h3>
-                  <p class="buy-cost">40.000$</p>
-                  <p class="buy-desc">ENGINE</p>
-                  <p class="buy-desc">WATTAGE</p>
-                  <p class="buy-desc">SPEED</p>
-                  <a href="#" class="buy-btn1">Favorite</a>
-                  <a href="#" class="buy-btn2">Buy</a>
+              <div class="col col-four s-col-full mt-16">
+                <img src="./assets/image/items/8.jpg" alt="HaGiang" class="car-img"/>
+                <div class="car-body">
+                  <h3 class="car-heading">Bentley</h3>
+                  <p class="car-time">$2,100,000</p>
+                  <p class="car-desc">ENGINE</p>
+                  <p class="car-desc">WATTAGE</p>
+                  <p class="car-desc">SPEED</p>
+                  <button class="btn s-full-width buy-car1"> Favorite </button>
+                  <button class="btn s-full-width js-buy-car"> Buy Car </button>
                 </div>
               </div>
-              <div class="clear"></div>
             </div>
           </div>
         </div>
-  
-        <!-- Contact section -->
-        <div class="content-section">
+
+        <!-- Contact Section -->
+        <div id="contact" class="content-section">
           <h2 class="section-heading">CONTACT</h2>
-          <p class="section-sub-heading">Car is the best favorite</p>
-          <p class="about-text">
-          </p>
+          <p class="section-sub-heading">Information of us!</p>
+
+          <div class="row contact-content">
+            <div class="col col-half s-col-full contact-info">
+              <p><i class="ti-location-pin"></i>Ho Chi Minh </p>
+              <p>
+                <i class="ti-mobile"></i>Phone:
+                <a href="tel:+84906131951">+84908500853</a>
+              </p>
+              <p>
+                <i class="ti-email"></i>Email:
+                <a href="mailto:thanhtrung230100@gmail.com"
+                  >thahnhtrung230100@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="col col-half s-col-full contact-form">
+              <form action="">
+                <div class="row">
+                  <div class="col col-half s-col-full">
+                    <input
+                      type="text"
+                      name=""
+                      placeholder="Name"
+                      required
+                      id="contact-name"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="col col-half s-col-full s-mt-8">
+                    <input
+                      type="email"
+                      name=""
+                      placeholder="Email"
+                      required
+                      id="contact-email"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="row mt-8">
+                  <div class="col col-full">
+                    <input
+                      type="text"
+                      name=""
+                      placeholder="Message"
+                      required
+                      id="contact-message"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <input
+                  class="contact-submit-btn btn mt-16 pull-right s-full-width"
+                  type="submit"
+                  value="SEND"
+                />
+              </form>
+            </div>
+          </div>
         </div>
 
-        <!-- Faq section-->
-        <div class="content-section">
-          <h2 class="section-heading">FAQ</h2>
-          <p class="section-sub-heading">Car is the best favorite</p>
-          <p class="about-text">
-          </p>
+        <!-- Map Section -->
+        <div class="map-section">
+          <img
+            class="footer-img"
+            src="https://res.cloudinary.com/dcbtqtuds/image/upload/v1690907139/Garage/map_asnlgd.png"
+            alt="map1"
+          />
         </div>
       </div>
+      <!-- End: Content -->
+
+      <!-- 4.Begin: Footer -->
       <div id="footer">
+        <div class="socials-list">
+          <a href="https://www.facebook.com/shune.2301/"><i class="ti-facebook"></i></a>
+          <a href="https://www.instagram.com/shune.2301/"><i class="ti-instagram"></i></a>
+          <a href="https://www.youtube.com/watch?v=UDVtMYqUAyw"><i class="ti-youtube"></i></a>
+          <a href="https://www.pinterest.com/pin/726909196118451868/"><i class="ti-pinterest"></i></a>
+          <a href="https://twitter.com/TrungNguyen2301"><i class="ti-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/shune2301/"><i class="ti-linkedin"></i></a>
+        </div>
+        <p class="copyright">
+          Made by <a href="https://github.com/Shu2301">S H U</a>
+        </p>
+      </div>
+      <!-- End: Footer -->
+    </div>
+    <!-- End: Main -->
+
+    <!-- 5.Begin: Modal -->
+    <div class="modal js-modal">
+      <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+          <i class="ti-close"></i>
+        </div>
+
+        <header class="modal-header">
+          <i class="modal-heading-icon ti-id-badge"></i>
+          Order Car
+        </header>
+
+        <div class="modal-body">
+          <label for="car-quantity" class="modal-label">
+          <i class="ti-shopping-cart"></i>
+            What ID car you choose ??
+          </label>
+          <input id="car-quantity"
+            type="text"
+            class="modal-input"
+            required
+            placeholder="What kind of car you want to buy ? "
+          />
+
+          <label for="ticket-email" class="modal-label">
+            <i class="ti-user"></i>
+            Sent to
+          </label>
+          <input
+            id="ticket-email"
+            type="email"
+            class="modal-input"
+            required
+            placeholder="Enter your mail"
+          />
+          <button id="buy-car">Pay <i class="ti-check"></i></button>
+        </div>
+        <footer class="modal-footer">
+          <p class="modal-help">Need <a href=""> help?</a></p>
+        </footer>
       </div>
     </div>
-    <script src="script.js"></script>
+    <!-- End: Modal -->
+
+    <!-- Begin: JVScrip -->
+    <script>
+      // Contact-form
+      const buyBtns = document.querySelectorAll(".js-buy-car");
+      const modal = document.querySelector(".js-modal");
+      const modalContainer = document.querySelector(".js-modal-container");
+      const modalClose = document.querySelector(".js-modal-close");
+
+      const showBuyCar = () => {
+        modal.classList.add("open");
+      };
+
+      const hideBuyCar = () => {
+        modal.classList.remove("open");
+      };
+
+      buyBtns.forEach((buyBtn) => {
+        buyBtn.addEventListener("click", showBuyCar);
+      });
+
+      modal.addEventListener("click", hideBuyCar);
+
+      modalClose.addEventListener("click", hideBuyCar);
+
+      modalContainer.addEventListener("click", (event) => {
+        event.stopPropagation();
+      });
+
+      // Responsive mobile
+      const header = document.getElementById("header");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const headerHeight = header.clientHeight;
+
+      mobileMenu.onclick = () => {
+        const isClose = header.clientHeight === headerHeight;
+        header.style.height = isClose ? "auto" : null;
+      };
+
+      // auto close when close menu
+      const navItems = document.getElementById("nav").querySelectorAll("li");
+      navItems.forEach((navItem) => {
+        navItem.addEventListener("click", (event) => {
+          const isParentMenu = navItem.querySelector(".subnav");
+          if (!isParentMenu) {
+            header.style.height = null;
+          } else {
+            event.preventDefault();
+          }
+        });
+      });
+    </script>
+    <!-- End: JVScrip -->
   </body>
 </html>
