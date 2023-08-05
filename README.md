@@ -1,6 +1,4 @@
-Demo online: 
-
-[Website](https://shu-home.glitch.me/) [Replace by your public prototype later]
+Demo online: [Website]([https://shu-home.glitch.me/](https://shu2301.github.io/WebCar/))
 
 ## 1. What do you need to know?
   - Building a Car Garage
