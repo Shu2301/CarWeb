@@ -1,4 +1,4 @@
-Demo online: [Website](https://shu2301.github.io/WebCar/)
+Demo online: [Website](https://shu2301.github.io/CarWeb/)
 
 ## 1. What do you need to know?
   - Building a Car Garage
